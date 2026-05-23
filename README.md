@@ -1,4 +1,4 @@
-# Enterprise File Share & Printer Lab
+# Windows File Share & Printer Lab
 
 Repository: `Enterprise-FileShare-Printer-Lab`
 
