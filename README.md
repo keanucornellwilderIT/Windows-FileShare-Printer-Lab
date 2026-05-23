@@ -40,8 +40,6 @@ The environment includes:
 - [NTFS & Share Permissions](#ntfs--share-permissions)
 - [Access Denied Troubleshooting](#access-denied-troubleshooting)
 - [Help Desk Scenarios](#help-desk-scenarios)
-- [Screenshots](#screenshots)
-- [Video Demonstration](#video-demonstration)
 
 ---
 
@@ -62,6 +60,11 @@ Set up shared folders and configure basic network sharing for enterprise users.
 - Basic SMB sharing
 - Remote access verification
 
+## Screenshots
+- _Add screenshot of shared folder creation here_
+- _Add screenshot of SMB configuration here_
+- _Add screenshot of client access test here_
+
 ---
 
 # NTFS & Share Permissions
@@ -80,6 +83,10 @@ Manage NTFS and share permissions to control access for users and groups.
 - NTFS permission hierarchy
 - Share vs NTFS access
 - Effective access analysis
+
+## Screenshots
+- _Add screenshot of NTFS permissions setup here_
+- _Add screenshot of share permissions testing here_
 
 ---
 
@@ -102,6 +109,10 @@ A user received "Access Denied" when attempting to access a shared folder.
 - Group membership validation
 - Access conflict resolution
 
+## Screenshots
+- _Add screenshot of access denied error here_
+- _Add screenshot of permissions fix here_
+
 ---
 
 # Help Desk Scenarios
@@ -118,41 +129,23 @@ A user received "Access Denied" when attempting to access a shared folder.
 - Active Directory dependency analysis
 - Network diagnostics
 
----
-
-# Screenshots
-
-## File Share Configuration
-
-_Add screenshot here_
+## Screenshots
+- _Add screenshot of authentication issue here_
+- _Add screenshot of DNS troubleshooting here_
 
 ---
 
-## NTFS Permissions
+# Lessons Learned
 
-_Add screenshot here_
+Through this lab, I gained practical experience in:
 
----
-
-## Shared Folder Access Testing
-
-_Add screenshot here_
-
----
-
-## Access Denied Troubleshooting
-
-_Add screenshot here_
+- Enterprise file share management
+- NTFS and Share permissions
+- Troubleshooting access and authentication issues
+- Help Desk IT support methodology
 
 ---
 
-# Video Demonstration
+# Author
 
-## Full Lab Walkthrough
-
-_Add YouTube or Loom video link here_
-
-Example:
-
-```text
-https://www.youtube.com/
+**Keanu Wilder**
