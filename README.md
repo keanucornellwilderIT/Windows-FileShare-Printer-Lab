@@ -146,8 +146,11 @@ Through this lab, I gained practical experience in:
 
 ---
   
-## Video Demonstration
-- _Add video link demonstrating Help Desk scenarios here_
+# Video Demonstration
+
+## Full Lab Walkthrough
+- _Add YouTube or Loom video link here_
+
 ---
 
 # Author
