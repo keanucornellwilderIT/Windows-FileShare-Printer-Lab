@@ -1,7 +1,5 @@
 # Windows File Share & Printer Lab
 
-Repository: `Enterprise-FileShare-Printer-Lab`
-
 ## 📌 Overview
 This project simulates enterprise-level file sharing and printer management within a Windows environment. The lab focuses on configuring shared folders, managing NTFS and share permissions, troubleshooting mapped drives, deploying printers, and resolving printer queue issues commonly handled by IT support and system administrators.
 
@@ -22,67 +20,40 @@ The goal of this project is to build practical experience with file services, pr
 ## 🧰 Technologies Used
 - Windows Server 2022
 - Windows 10/11
-- File and Storage Services
-- NTFS Permissions
-- Shared Folders
-- Network Printers
-- Print Management
 - Active Directory
-- Command Prompt
+- SMB File Sharing
+- Print Management
 - Remote Desktop
 
 ---
 
 ## 🏗️ Environment Setup
-
-### Devices Used
-- Windows Server (File/Print Server)
-- Windows Client Machine
+- Windows Server VM
+- Windows Client VM
 - Domain Environment
-
-### Network Configuration
-- Shared Network Resources
-- Domain Connectivity
 - SMB File Sharing
-- Printer Network Access
-- DNS Resolution
+- Network Printer Access
 
 ---
 
 ## ⚙️ Project Configuration Steps
-
 ### Step 1 - Configure File Shares
-- Created shared folders on server
-- Configured SMB sharing settings
-- Verified network accessibility
+Configured SMB shared folders and verified network access.
 
-Screenshot here
-
----
+📸 Screenshot here
 
 ### Step 2 - Configure NTFS & Share Permissions
-- Created security groups and users
-- Assigned NTFS permissions
-- Configured share-level permissions
-- Tested user access levels
+Configured NTFS and share permissions for user access management.
 
-Screenshot here
-
----
+📸 Screenshot here
 
 ### Step 3 - Map Network Drives
-- Connected shared folders to client machines
-- Configured mapped drives
-- Verified persistent network access
+Mapped shared folders to client systems and verified connectivity.
 
-Screenshot here
-
----
+📸 Screenshot here
 
 ### Step 4 - Deploy Network Printers
-- Installed and configured printers
-- Shared printers across network
-- Connected client systems to printer resources
+Configured and shared network printers across the environment.
 
 Screenshot here
 
@@ -226,45 +197,15 @@ Screenshot here
 ---
 
 ## 🧠 Key Help Desk Skills Demonstrated
-- File share management
-- NTFS permission troubleshooting
-- Printer administration
-- Network drive troubleshooting
-- SMB configuration
-- Windows Server administration
-- Root cause analysis
-- Help desk troubleshooting workflows
-- Technical documentation
+- SMB File Sharing
+- NTFS Permission Management
+- Printer Administration
+- Network Troubleshooting
+- Windows Server Administration
+- Root Cause Analysis
+- Technical Documentation
 
 ---
 
 ## 📖 Lessons Learned
 This project improved my understanding of enterprise file sharing and printer management within Windows environments. I learned how to configure secure shared resources, troubleshoot access issues, manage mapped drives, and resolve common printer-related problems encountered in help desk and system administration roles. The lab also strengthened my troubleshooting methodology and documentation skills.
-
----
-
-## 🚀 Future Improvements
-- Add Group Policy printer deployment
-- Configure DFS namespaces
-- Implement advanced file server permissions
-- Add print auditing and monitoring
-- Integrate PowerShell automation
-- Simulate enterprise-scale file server environments
-
----
-
-## 📸 Screenshots
-Include:
-- Shared folder configuration
-- NTFS permission settings
-- Share permission settings
-- Mapped drive connections
-- Print Management console
-- Printer deployment screenshots
-- Printer queue troubleshooting
-- User access testing
-
----
-
-## 👨‍💻 Author
-Keanu
