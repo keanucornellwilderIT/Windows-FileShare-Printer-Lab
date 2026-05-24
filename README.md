@@ -82,27 +82,44 @@ Configured enterprise file shares and verified successful user access.
 ### Scenario 2 - NTFS & Share Permissions
 
 #### Problem
-Users were unable to access or modify shared files properly.
+`sjohnson`, a member of the `HR Users` group, was unable to modify files within the shared `CompanyData` folder even though she was expected to have modification access.
 
 #### Troubleshooting
-- Reviewed NTFS permissions
+- Reviewed NTFS permissions on the shared folder
 - Checked share-level permissions
-- Verified group memberships
+- Verified `sjohnson` group membership
 - Tested effective permissions
+- Reviewed role-based access settings
+- Investigated inherited permissions and group access conflicts
 
 #### Root Cause
-Incorrect permission configuration causing access restrictions.
+The `HR Users` group only had `Read & Execute` permissions configured on the shared folder, preventing users from modifying files.
 
-Screenshot here
+## 📸 Screenshots
+
+### NTFS Permissions Before Fix
+<img width="362" height="449" alt="image" src="https://github.com/user-attachments/assets/d4dcd2e9-02cd-4940-a06b-3847653ee6c4" />
+
+### Access Denied Test
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/005d901c-e918-4574-b0b9-14a793e8c0ff" />
+
+### IT Admin Permission Review
+<img width="361" height="453" alt="image" src="https://github.com/user-attachments/assets/041b0a5c-58e7-499d-9f51-1e42a752d606" />
+
+### HR Users Modify Permission
+<img width="359" height="447" alt="image" src="https://github.com/user-attachments/assets/31130efd-34f5-4fea-9a92-40ecf8bc9f9a" />
 
 #### Resolution
-Adjusted NTFS and share permissions to align with user access requirements.
+Permissions were reviewed and updated to grant the `HR Users` group `Modify` access. After permissions were corrected, `sjohnson` successfully modified files within the shared folder.
 
 #### Skills Learned
-- NTFS permissions management
-- Share permission troubleshooting
-- Access control configuration
-- Security group management
+- NTFS permission troubleshooting
+- Share permission management
+- Active Directory group administration
+- Access control troubleshooting
+- Windows file share administration
+- Effective permissions analysis
+
 ---
 
 ### Scenario 3 - Mapped Drive Troubleshooting
