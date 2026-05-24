@@ -5,8 +5,6 @@ This project simulates enterprise-level file sharing and printer management with
 
 The goal of this project is to build practical experience with file services, printer administration, access management, and real-world help desk troubleshooting workflows in enterprise environments.
 
----
-
 ## 🎯 Objectives
 - Configure enterprise file shares
 - Manage NTFS and share permissions
@@ -14,8 +12,6 @@ The goal of this project is to build practical experience with file services, pr
 - Deploy and manage network printers
 - Resolve printer queue and connectivity issues
 - Practice real-world help desk troubleshooting workflows
-
----
 
 ## 🧰 Technologies Used
 - Windows Server 2022
@@ -25,16 +21,12 @@ The goal of this project is to build practical experience with file services, pr
 - Print Management
 - Remote Desktop
 
----
-
 ## 🏗️ Environment Setup
 - Windows Server VM
 - Windows Client VM
 - Domain Environment
 - SMB File Sharing
 - Network Printer Access
-
----
 
 ## ⚙️ Project Configuration Steps
 ### Step 1 - Configure File Shares
@@ -75,6 +67,8 @@ Users needed centralized access to shared company files.
 #### Root Cause
 Shared file resources needed proper configuration and access permissions.
 
+Screenshot here
+
 #### Resolution
 Configured enterprise file shares and verified successful user access.
 
@@ -83,9 +77,6 @@ Configured enterprise file shares and verified successful user access.
 - Windows file services
 - Network resource configuration
 - User access management
-
-Screenshot here
-
 ---
 
 ### Scenario 2 - NTFS & Share Permissions
@@ -102,6 +93,8 @@ Users were unable to access or modify shared files properly.
 #### Root Cause
 Incorrect permission configuration causing access restrictions.
 
+Screenshot here
+
 #### Resolution
 Adjusted NTFS and share permissions to align with user access requirements.
 
@@ -110,9 +103,6 @@ Adjusted NTFS and share permissions to align with user access requirements.
 - Share permission troubleshooting
 - Access control configuration
 - Security group management
-
-Screenshot here
-
 ---
 
 ### Scenario 3 - Mapped Drive Troubleshooting
@@ -129,6 +119,8 @@ Mapped network drives were unavailable on client systems.
 #### Root Cause
 Drive mapping/connectivity issue affecting access to shared resources.
 
+Screenshot here
+
 #### Resolution
 Reconfigured mapped drives and restored access to network shares.
 
@@ -137,9 +129,6 @@ Reconfigured mapped drives and restored access to network shares.
 - Windows networking
 - SMB diagnostics
 - Connectivity troubleshooting
-
-Screenshot here
-
 ---
 
 ### Scenario 4 - Print Server Deployment
@@ -156,6 +145,8 @@ Organization required centralized printer deployment and management.
 #### Root Cause
 Printer resources required centralized deployment configuration.
 
+Screenshot here
+
 #### Resolution
 Successfully deployed shared network printers through print server configuration.
 
@@ -164,9 +155,6 @@ Successfully deployed shared network printers through print server configuration
 - Printer deployment
 - Driver installation
 - Network printer configuration
-
-Screenshot here
-
 ---
 
 ### Scenario 5 - Printer Queue Troubleshooting
@@ -183,6 +171,8 @@ Print jobs were stuck in the printer queue and users could not print.
 #### Root Cause
 Print spooler/queue issue preventing successful print job processing.
 
+Screenshot here
+
 #### Resolution
 Cleared printer queue and restored normal printing operations.
 
@@ -191,9 +181,6 @@ Cleared printer queue and restored normal printing operations.
 - Print spooler management
 - Queue diagnostics
 - End-user support
-
-Screenshot here
-
 ---
 
 ## 🧠 Key Help Desk Skills Demonstrated
@@ -204,8 +191,6 @@ Screenshot here
 - Windows Server Administration
 - Root Cause Analysis
 - Technical Documentation
-
----
 
 ## 📖 Lessons Learned
 This project improved my understanding of enterprise file sharing and printer management within Windows environments. I learned how to configure secure shared resources, troubleshoot access issues, manage mapped drives, and resolve common printer-related problems encountered in help desk and system administration roles. The lab also strengthened my troubleshooting methodology and documentation skills.
