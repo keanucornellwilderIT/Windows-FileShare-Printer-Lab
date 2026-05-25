@@ -140,7 +140,7 @@ The organization required centralized printer deployment and management within t
 - Verified printer deployment settings within Print Management
 
 #### Root Cause
-Print services and printer resources required centralized deployment configuration before network-based printer management could be performed.
+Configured Print Server services successfully and deployed printer resources through Print Management for centralized administration within the domain environment.
 
 ## 📸 Screenshots
 
@@ -240,7 +240,7 @@ A print spooler and queue processing issue prevented successful print job comple
 <img width="636" height="274" alt="image" src="https://github.com/user-attachments/assets/495476b4-7190-4892-9b77-c5da44f035a7" />
 
 #### Resolution
-Cleared the printer queue and restarted the Print Spooler service, restoring normal printing functionality.
+Cleared the printer queue and restarted the Print Spooler service, restoring normal printing functionality for `sjohnson` and other users within the domain environment.
 
 #### Skills Learned
 - Printer troubleshooting
