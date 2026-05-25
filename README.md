@@ -145,6 +145,7 @@ The organization required centralized printer deployment and management within t
 
 #### Root Cause
 Print services and printer resources required centralized deployment configuration before network-based printer management could be performed.
+
 ## 📸 Screenshots
 
 ### Print Server Role Installation
@@ -172,55 +173,84 @@ Configured Print Server services successfully and deployed printer resources thr
 - Print Management configuration
 - Enterprise printer services
 
-### Scenario 4 - Print Server Deployment
+---
+### Scenario 4 - Mapped Drive Troubleshooting
 
 #### Problem
-Organization required centralized printer deployment and management.
+`edavis` was unable to access the mapped network drive on `client-1` and could not reach shared company resources within the `CompanyData` folder.
 
 #### Troubleshooting
-- Installed printer drivers
-- Configured shared printers
-- Verified print server communication
-- Connected client devices
+- Verified connectivity between `client-1` and `dc-1`
+- Reviewed mapped drive configuration
+- Tested SMB network access using `ping dc-1`
+- Verified share permissions and authentication
+- Reconfigured mapped drive settings using `\\dc-1\CompanyData`
 
 #### Root Cause
-Printer resources required centralized deployment configuration.
+An incorrect network drive mapping prevented `edavis` from accessing shared resources across the domain environment.
 
-Screenshot here
+## 📸 Screenshots
+
+### Broken Network Drive
+<img width="859" height="603" alt="image" src="https://github.com/user-attachments/assets/7e8d91af-8ac8-4290-b37a-fea24ef6b567" />
+
+### Connectivity Testing
+<img width="517" height="369" alt="image" src="https://github.com/user-attachments/assets/5acee66b-b630-43db-8461-31b4c388da8f" />
+
+### Drive Mapping Configuration
+<img width="809" height="472" alt="image" src="https://github.com/user-attachments/assets/e699a241-eba9-4837-b9a9-7537a05c140a" />
+
+### Successful Mapped Drive Access
+<img width="627" height="176" alt="image" src="https://github.com/user-attachments/assets/acf8537b-4db4-47c1-962e-627c13e47772" />
+<img width="909" height="474" alt="image" src="https://github.com/user-attachments/assets/1c20ef1e-4028-447a-8a53-d38117a28421" />
+
 
 #### Resolution
-Successfully deployed shared network printers through print server configuration.
+Reconfigured the mapped network drive and restored successful access to the `CompanyData` shared folder.
 
 #### Skills Learned
-- Print server management
-- Printer deployment
-- Driver installation
-- Network printer configuration
----
+- Network drive troubleshooting
+- Windows networking
+- SMB diagnostics
+- Connectivity troubleshooting
+- Shared resource management
 
 ### Scenario 5 - Printer Queue Troubleshooting
 
 #### Problem
-Print jobs were stuck in the printer queue and users could not print.
+`sjohnson` was unable to print documents because print jobs became stuck within the `OfficePrinter` queue on the print server.
 
 #### Troubleshooting
-- Reviewed print queue status
-- Restarted print spooler service
-- Cleared stuck print jobs
-- Verified printer connectivity
+- Reviewed printer queue status within Print Management
+- Verified printer communication and printer status
+- Paused and reviewed printer queue activity
+- Restarted the Print Spooler service
+- Cleared stuck print jobs from the queue
+- Tested printer functionality after remediation
 
 #### Root Cause
-Print spooler/queue issue preventing successful print job processing.
+A print spooler and queue processing issue prevented successful print job completion and caused print jobs to remain stuck within the printer queue.
 
-Screenshot here
+## 📸 Screenshots
+
+### Printer Queue Error
+<img width="476" height="282" alt="image" src="https://github.com/user-attachments/assets/92852a57-65e3-4bb5-aa6c-1a8361a36bc2" />
+
+### Print Spooler Service
+<img width="844" height="489" alt="image" src="https://github.com/user-attachments/assets/0f0dd24e-5429-4a93-9088-61c5e034558e" />
+<img width="379" height="173" alt="image" src="https://github.com/user-attachments/assets/6161d21f-9bd7-4597-a53e-0c43e93dca00" />
+
+### Cleared Printer Queue
+<img width="636" height="274" alt="image" src="https://github.com/user-attachments/assets/495476b4-7190-4892-9b77-c5da44f035a7" />
 
 #### Resolution
-Cleared printer queue and restored normal printing operations.
+Cleared the printer queue and restarted the Print Spooler service, restoring normal printing functionality.
 
 #### Skills Learned
 - Printer troubleshooting
 - Print spooler management
 - Queue diagnostics
+- Windows service management
 - End-user support
 ---
 
