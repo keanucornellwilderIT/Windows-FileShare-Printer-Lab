@@ -32,14 +32,10 @@ The goal of this project is to build practical experience with file services, pr
 ### Step 1 - Configure File Shares
 Configured SMB shared folders and verified network access.
 
-📸 Screenshot here
-
 ### Step 2 - Configure NTFS & Share Permissions
 Configured NTFS and share permissions for user access management.
 
-📸 Screenshot here
-
-### Step 3 - Map Network Drives
+### Step 3- Map Network Drives
 Mapped shared folders to client systems and verified connectivity.
 
 📸 Screenshot here
@@ -48,7 +44,7 @@ Mapped shared folders to client systems and verified connectivity.
 Configured and shared network printers across the environment.
 
 Screenshot here
-
+ 
 ---
 
 ## 🛠️ Help Desk Scenarios
@@ -56,21 +52,35 @@ Screenshot here
 ### Scenario 1 - SMB File Share Configuration
 
 #### Problem
-Users needed centralized access to shared company files.
+`sjohnson` required centralized access to company files stored within the shared `CompanyData` folder on `dc-1`.
 
 #### Troubleshooting
-- Created shared folders
-- Configured SMB sharing
-- Verified network access
-- Tested user connectivity
+- Created the `CompanyData` shared folder
+- Configured SMB sharing settings
+- Configured share-level permissions for `Domain Users`
+- Verified network accessibility from `client-1`
+- Tested user connectivity to `\\dc-1\CompanyData`
 
 #### Root Cause
-Shared file resources needed proper configuration and access permissions.
+Shared file resources required proper SMB configuration and network access permissions before users could access company data across the domain environment.
 
-Screenshot here
+## 📸 Screenshots
+### Created Shared Folder `CompanyData`
+<img width="1319" height="705" alt="image" src="https://github.com/user-attachments/assets/1efbfed3-d171-4ab2-8c52-83284ac0f76c" />
+
+### SMB Share Configuration
+<img width="361" height="444" alt="image" src="https://github.com/user-attachments/assets/1238b655-1f0a-4372-b86a-b12b7149eaa5" />
+
+### Share Permissions Configuration
+<img width="362" height="484" alt="image" src="https://github.com/user-attachments/assets/95a2ffa3-3006-446d-b987-888ebad5078d" />
+
+### Client Share Access
+<img width="1124" height="627" alt="image" src="https://github.com/user-attachments/assets/bf1dc9f1-5293-45ce-811f-2e1c8d72ee48" />
+
+
 
 #### Resolution
-Configured enterprise file shares and verified successful user access.
+Configured SMB file sharing successfully and verified that users could access the shared folder across the network environment.
 
 #### Skills Learned
 - SMB file sharing
@@ -122,31 +132,45 @@ Permissions were reviewed and updated to grant the `HR Users` group `Modify` acc
 
 ---
 
-### Scenario 3 - Mapped Drive Troubleshooting
+### Scenario 3 - Print Server Deployment
 
 #### Problem
-Mapped network drives were unavailable on client systems.
+The organization required centralized printer deployment and management within the domain environment.
 
 #### Troubleshooting
-- Verified server connectivity
-- Checked drive mapping configuration
-- Tested network access
-- Reviewed authentication and permissions
+- Installed Print and Document Services role
+- Configured Print Server services on `dc-1`
+- Added and configured printer resources
+- Verified printer deployment settings within Print Management
 
 #### Root Cause
-Drive mapping/connectivity issue affecting access to shared resources.
+Print services and printer resources required centralized deployment configuration before network-based printer management could be performed.
+## 📸 Screenshots
 
-Screenshot here
+### Print Server Role Installation
+<img width="784" height="558" alt="image" src="https://github.com/user-attachments/assets/ef87275c-11bb-4b87-a0ef-c85578527fb7" />
+
+### Print Management Console
+<img width="368" height="547" alt="image" src="https://github.com/user-attachments/assets/7f84ddcb-f6d5-455a-a993-1646c581123d" />
+<img width="950" height="721" alt="image" src="https://github.com/user-attachments/assets/ec651d14-ea91-46ba-8da2-b2ba8dba1b8f" />
+
+### Printer Driver Configuration
+<img width="575" height="438" alt="image" src="https://github.com/user-attachments/assets/a8015ca1-8b36-4dca-98e9-f31271efa87e" />
+
+### OfficePrinter Deployment
+<img width="575" height="438" alt="image" src="https://github.com/user-attachments/assets/e136cdf2-1de4-4216-9cd5-0742446b22c8" />
+<img width="574" height="435" alt="image" src="https://github.com/user-attachments/assets/4d389dd3-4d58-40d4-baf1-130eea8ce527" />
+<img width="944" height="211" alt="image" src="https://github.com/user-attachments/assets/f1202338-01d7-4752-b6e9-a2bfbc2c7671" />
 
 #### Resolution
-Reconfigured mapped drives and restored access to network shares.
+Configured Print Server services successfully and deployed printer resources through Print Management for centralized administration.
 
 #### Skills Learned
-- Network drive troubleshooting
-- Windows networking
-- SMB diagnostics
-- Connectivity troubleshooting
----
+- Print Server administration
+- Printer deployment
+- Windows Server management
+- Print Management configuration
+- Enterprise printer services
 
 ### Scenario 4 - Print Server Deployment
 
