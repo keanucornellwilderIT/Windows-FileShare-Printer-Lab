@@ -38,13 +38,9 @@ Configured NTFS and share permissions for user access management.
 ### Step 3- Map Network Drives
 Mapped shared folders to client systems and verified connectivity.
 
-📸 Screenshot here
-
 ### Step 4 - Deploy Network Printers
 Configured and shared network printers across the environment.
 
-Screenshot here
- 
 ---
 
 ## 🛠️ Help Desk Scenarios
