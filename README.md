@@ -4,7 +4,8 @@
 This project demonstrates enterprise Windows file sharing, NTFS permission management, mapped drive troubleshooting, and print server administration within an Active Directory environment.
 
 The lab simulates real-world IT support and system administration scenarios involving SMB shares, network printers, access control, printer queues, and connectivity troubleshooting.
-Business Impact:
+
+### Business Impact:
 Resolved access and printing issues impacting end-user productivity across the domain environment.
 
 ### Technologies Used
