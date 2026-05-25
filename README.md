@@ -1,19 +1,13 @@
 # Windows File Share & Printer Lab
 
-## 📌 Overview
-This project simulates enterprise-level file sharing and printer management within a Windows environment. The lab focuses on configuring shared folders, managing NTFS and share permissions, troubleshooting mapped drives, deploying printers, and resolving printer queue issues commonly handled by IT support and system administrators.
+### Overview
+This project demonstrates enterprise Windows file sharing, NTFS permission management, mapped drive troubleshooting, and print server administration within an Active Directory environment.
 
-The goal of this project is to build practical experience with file services, printer administration, access management, and real-world help desk troubleshooting workflows in enterprise environments.
+The lab simulates real-world IT support and system administration scenarios involving SMB shares, network printers, access control, printer queues, and connectivity troubleshooting.
+Business Impact:
+Resolved access and printing issues impacting end-user productivity across the domain environment.
 
-## 🎯 Objectives
-- Configure enterprise file shares
-- Manage NTFS and share permissions
-- Troubleshoot mapped drive issues
-- Deploy and manage network printers
-- Resolve printer queue and connectivity issues
-- Practice real-world help desk troubleshooting workflows
-
-## 🧰 Technologies Used
+### Technologies Used
 - Windows Server 2022
 - Windows 10/11
 - Active Directory
@@ -21,14 +15,22 @@ The goal of this project is to build practical experience with file services, pr
 - Print Management
 - Remote Desktop
 
-## 🏗️ Environment Setup
+### Key Help Desk Skills Demonstrated
+- SMB File Sharing
+- NTFS Permission Management
+- Printer Administration
+- Network Troubleshooting
+- Windows Server Administration
+- Root Cause Analysis
+- Technical Documentation
+
+### Environment Setup
 - Windows Server VM
 - Windows Client VM
-- Domain Environment
 - SMB File Sharing
 - Network Printer Access
 
-## ⚙️ Project Configuration Steps
+### Project Configuration Steps
 ### Step 1 - Configure File Shares
 Configured SMB shared folders and verified network access.
 
@@ -43,7 +45,7 @@ Configured and shared network printers across the environment.
 
 ---
 
-## 🛠️ Help Desk Scenarios
+## Help Desk Scenarios
 
 ### Scenario 1 - SMB File Share Configuration
 
@@ -101,7 +103,7 @@ Configured SMB file sharing successfully and verified that users could access th
 #### Root Cause
 The `HR Users` group only had `Read & Execute` permissions configured on the shared folder, preventing users from modifying files.
 
-## 📸 Screenshots
+## Screenshots
 
 ### NTFS Permissions Before Fix
 <img width="362" height="449" alt="image" src="https://github.com/user-attachments/assets/d4dcd2e9-02cd-4940-a06b-3847653ee6c4" />
@@ -142,7 +144,7 @@ The organization required centralized printer deployment and management within t
 #### Root Cause
 Configured Print Server services successfully and deployed printer resources through Print Management for centralized administration within the domain environment.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Print Server Role Installation
 <img width="784" height="558" alt="image" src="https://github.com/user-attachments/assets/ef87275c-11bb-4b87-a0ef-c85578527fb7" />
@@ -185,7 +187,7 @@ Configured Print Server services successfully and deployed printer resources thr
 #### Root Cause
 An incorrect network drive mapping prevented `edavis` from accessing shared resources across the domain environment.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Broken Network Drive
 <img width="859" height="603" alt="image" src="https://github.com/user-attachments/assets/7e8d91af-8ac8-4290-b37a-fea24ef6b567" />
@@ -250,14 +252,5 @@ Cleared the printer queue and restarted the Print Spooler service, restoring nor
 - End-user support
 ---
 
-## 🧠 Key Help Desk Skills Demonstrated
-- SMB File Sharing
-- NTFS Permission Management
-- Printer Administration
-- Network Troubleshooting
-- Windows Server Administration
-- Root Cause Analysis
-- Technical Documentation
-
-## 📖 Lessons Learned
+## Lessons Learned
 This project improved my understanding of enterprise file sharing and printer management within Windows environments. I learned how to configure secure shared resources, troubleshoot access issues, manage mapped drives, and resolve common printer-related problems encountered in help desk and system administration roles. The lab also strengthened my troubleshooting methodology and documentation skills.
