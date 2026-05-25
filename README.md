@@ -229,7 +229,7 @@ Reconfigured the mapped network drive and restored successful access to the `Com
 #### Root Cause
 A print spooler and queue processing issue prevented successful print job completion and caused print jobs to remain stuck within the printer queue.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Printer Queue Error
 <img width="476" height="282" alt="image" src="https://github.com/user-attachments/assets/92852a57-65e3-4bb5-aa6c-1a8361a36bc2" />
