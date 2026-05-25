@@ -63,7 +63,7 @@ Configured and shared network printers across the environment.
 #### Root Cause
 Shared file resources required proper SMB configuration and network access permissions before users could access company data across the domain environment.
 
-## 📸 Screenshots
+## Screenshots
 ### Created Shared Folder `CompanyData`
 <img width="1319" height="705" alt="image" src="https://github.com/user-attachments/assets/1efbfed3-d171-4ab2-8c52-83284ac0f76c" />
 
@@ -151,14 +151,12 @@ Configured Print Server services successfully and deployed printer resources thr
 <img width="784" height="558" alt="image" src="https://github.com/user-attachments/assets/ef87275c-11bb-4b87-a0ef-c85578527fb7" />
 
 ### Print Management Console
-<img width="368" height="547" alt="image" src="https://github.com/user-attachments/assets/7f84ddcb-f6d5-455a-a993-1646c581123d" />
 <img width="950" height="721" alt="image" src="https://github.com/user-attachments/assets/ec651d14-ea91-46ba-8da2-b2ba8dba1b8f" />
 
 ### Printer Driver Configuration
 <img width="575" height="438" alt="image" src="https://github.com/user-attachments/assets/a8015ca1-8b36-4dca-98e9-f31271efa87e" />
 
 ### OfficePrinter Deployment
-<img width="575" height="438" alt="image" src="https://github.com/user-attachments/assets/e136cdf2-1de4-4216-9cd5-0742446b22c8" />
 <img width="574" height="435" alt="image" src="https://github.com/user-attachments/assets/4d389dd3-4d58-40d4-baf1-130eea8ce527" />
 <img width="944" height="211" alt="image" src="https://github.com/user-attachments/assets/f1202338-01d7-4752-b6e9-a2bfbc2c7671" />
 
@@ -200,7 +198,6 @@ An incorrect network drive mapping prevented `edavis` from accessing shared reso
 <img width="809" height="472" alt="image" src="https://github.com/user-attachments/assets/e699a241-eba9-4837-b9a9-7537a05c140a" />
 
 ### Successful Mapped Drive Access
-<img width="627" height="176" alt="image" src="https://github.com/user-attachments/assets/acf8537b-4db4-47c1-962e-627c13e47772" />
 <img width="909" height="474" alt="image" src="https://github.com/user-attachments/assets/1c20ef1e-4028-447a-8a53-d38117a28421" />
 
 
