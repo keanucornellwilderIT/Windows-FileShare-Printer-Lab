@@ -76,18 +76,10 @@ Shared file resources required proper SMB configuration and network access permi
 ### Client Share Access
 <img width="1124" height="627" alt="image" src="https://github.com/user-attachments/assets/bf1dc9f1-5293-45ce-811f-2e1c8d72ee48" />
 
-
-
-#### Resolution
+### Resolution
 Configured SMB file sharing successfully and verified that users could access the shared folder across the network environment.
 
-#### Skills Learned
-- SMB file sharing
-- Windows file services
-- Network resource configuration
-- User access management
 ---
-
 ### Scenario 2 - NTFS & Share Permissions
 
 #### Problem
@@ -118,19 +110,10 @@ The `HR Users` group only had `Read & Execute` permissions configured on the sha
 ### HR Users Modify Permission
 <img width="359" height="447" alt="image" src="https://github.com/user-attachments/assets/31130efd-34f5-4fea-9a92-40ecf8bc9f9a" />
 
-#### Resolution
+### Resolution
 Permissions were reviewed and updated to grant the `HR Users` group `Modify` access. After permissions were corrected, `sjohnson` successfully modified files within the shared folder.
 
-#### Skills Learned
-- NTFS permission troubleshooting
-- Share permission management
-- Active Directory group administration
-- Access control troubleshooting
-- Windows file share administration
-- Effective permissions analysis
-
 ---
-
 ### Scenario 3 - Print Server Deployment
 
 #### Problem
@@ -160,15 +143,8 @@ Configured Print Server services successfully and deployed printer resources thr
 <img width="574" height="435" alt="image" src="https://github.com/user-attachments/assets/4d389dd3-4d58-40d4-baf1-130eea8ce527" />
 <img width="944" height="211" alt="image" src="https://github.com/user-attachments/assets/f1202338-01d7-4752-b6e9-a2bfbc2c7671" />
 
-#### Resolution
+### Resolution
 Configured Print Server services successfully and deployed printer resources through Print Management for centralized administration.
-
-#### Skills Learned
-- Print Server administration
-- Printer deployment
-- Windows Server management
-- Print Management configuration
-- Enterprise printer services
 
 ---
 ### Scenario 4 - Mapped Drive Troubleshooting
@@ -201,16 +177,10 @@ An incorrect network drive mapping prevented `edavis` from accessing shared reso
 <img width="909" height="474" alt="image" src="https://github.com/user-attachments/assets/1c20ef1e-4028-447a-8a53-d38117a28421" />
 
 
-#### Resolution
+### Resolution
 Reconfigured the mapped network drive and restored successful access to the `CompanyData` shared folder.
 
-#### Skills Learned
-- Network drive troubleshooting
-- Windows networking
-- SMB diagnostics
-- Connectivity troubleshooting
-- Shared resource management
-
+---
 ### Scenario 5 - Printer Queue Troubleshooting
 
 #### Problem
@@ -239,16 +209,9 @@ A print spooler and queue processing issue prevented successful print job comple
 ### Cleared Printer Queue
 <img width="636" height="274" alt="image" src="https://github.com/user-attachments/assets/495476b4-7190-4892-9b77-c5da44f035a7" />
 
-#### Resolution
+### Resolution
 Cleared the printer queue and restarted the Print Spooler service, restoring normal printing functionality for `sjohnson` and other users within the domain environment.
 
-#### Skills Learned
-- Printer troubleshooting
-- Print spooler management
-- Queue diagnostics
-- Windows service management
-- End-user support
 ---
-
 ## Lessons Learned
 This project improved my understanding of enterprise file sharing and printer management within Windows environments. I learned how to configure secure shared resources, troubleshoot access issues, manage mapped drives, and resolve common printer-related problems encountered in help desk and system administration roles. The lab also strengthened my troubleshooting methodology and documentation skills.
