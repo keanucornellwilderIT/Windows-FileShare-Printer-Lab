@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,45:7C3AED,75:C084FC,100:F5D0FE&height=180&section=header&text=Windows%20File%20Sharing%20%26%20Print%20Server%20Lab&fontSize=34&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=fadeIn" width="100%">
+
 # Windows File Sharing & Print Server Lab
 
 ### Overview
