@@ -1,4 +1,4 @@
-# Windows File Share & Printer Lab
+# Windows File Sharing & Print Server Lab
 
 ### Overview
 This project demonstrates enterprise Windows file sharing, NTFS permission management, mapped drive troubleshooting, and print server administration within an Active Directory environment.
