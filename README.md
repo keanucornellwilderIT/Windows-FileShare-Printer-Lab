@@ -2,12 +2,13 @@
 
 # Windows File Sharing & Print Server Lab
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/610d2228-c211-4447-85ef-d1e85b79c42f" />
+
 ### Overview
 This project demonstrates enterprise Windows file sharing, NTFS permission management, mapped drive troubleshooting, and print server administration within an Active Directory environment.
 
 The lab simulates real-world IT support and system administration scenarios involving SMB shares, network printers, access control, printer queues, and connectivity troubleshooting.
 
-### Business Impact:
 Resolved access and printing issues impacting end-user productivity across the domain environment.
 
 ### Technologies Used
